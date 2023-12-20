@@ -1,0 +1,95 @@
+$primary-font: Helvetica, sans-serif;
+$secondary-font: Sansita, sans-serif;
+$primay-color: #fff;
+$secondary-color: #fff3f0;
+$third-color: #ffe1d9;
+$fourth-color : rgb(252, 228, 254);
+
+
+
+div.ProfileCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: $secondary-color;
+    padding: 50px;
+    width: 300px;
+    border-radius: 30px;
+    margin: 0 auto;
+}
+
+div.ProfilePicture {
+    img {
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 100px;
+    }
+}
+
+div.Details {
+    text-align: center;
+
+div.Icones {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+span.LikeCounter, span.FavoriteCounter {
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    color: #000;
+    font: 100% $primary-font;
+    padding: 10px;
+}
+
+
+    h1 {
+        font: 100% $secondary-font;
+        font-size: 30px;
+    }
+
+    h2 {
+        font: 100% $primary-font;
+        font-size: 15px;
+        padding: 20px;
+    }
+
+    div.Line{
+        width: 200px;
+        height: 1px;
+        background-color: #000;
+        margin: 10px auto;
+    }
+
+    img.Heart, img.Star {
+        width: 40px;
+        height: 40px;
+        padding: 10px;
+        background-color: $third-color;
+        border-radius: 50px;
+        margin: 10px;
+        transition: background-color 0.3s ease;
+        cursor: pointer;
+
+        &:hover {
+            background-color: $primay-color;
+        }
+    }
+
+    p.Ed {
+        font: 100% $primary-font;
+        font-size: 12px;
+        font-style: italic;
+        opacity: 0.8;
+    }
+
+    p{
+        font: 100% $primary-font;
+        font-size: 14px;
+    }
+}
